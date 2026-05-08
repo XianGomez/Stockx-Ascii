@@ -17,7 +17,4 @@ public class Bid {
         return this.bid;
     }
 
-    public int compareTo(Offer offer) {
-        return 0;
-    }
 }
