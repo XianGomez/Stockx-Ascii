@@ -23,6 +23,6 @@ public class MaxBid implements Criteria {
         }
 
         return result;
-
+        
     }
 }
