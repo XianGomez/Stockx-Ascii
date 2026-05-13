@@ -17,4 +17,8 @@ public class Ask implements Offer{
     public int value() {
         return this.ask;
     }
+
+    public int compareTo(Offer offer) {
+        return Integer.compare(this.value(), offer.value());
+    }
 }
