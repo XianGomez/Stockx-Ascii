@@ -24,6 +24,6 @@ public class Sale implements Offer {
 
     @Override
     public String toString() {
-        return size() + "\t" + value();
+        return "\t\t" + size() + "\t" + value() + "\n";
     }
 }
