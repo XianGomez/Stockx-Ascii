@@ -1,8 +1,24 @@
+package edu.teamrocket;
+
+import java.util.List;
+
+import edu.teamrocket.Criteria.Criteria;
+import edu.teamrocket.Criteria.AndCriteria;
+import edu.teamrocket.Criteria.Asks;
+import edu.teamrocket.Criteria.Bids;
+import edu.teamrocket.Criteria.LastSale;
+import edu.teamrocket.Criteria.Max;
+import edu.teamrocket.Criteria.MaxBid;
+import edu.teamrocket.Criteria.Min;
+import edu.teamrocket.Criteria.MinAsk;
+import edu.teamrocket.Criteria.Sales;
+import edu.teamrocket.Criteria.Size;
 import edu.teamrocket.Item.Item;
 import edu.teamrocket.Item.Sneaker;
 import edu.teamrocket.Offer.Ask;
 import edu.teamrocket.Offer.Bid;
 import edu.teamrocket.Offer.Offer;
+import edu.teamrocket.Offer.Sale;
 
 /**
  * StockX nació en Detroit, y allí siguen haciendo
